@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Subtle global improvements */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: #020617; /* slate-950 */
+	color: #f1f5f9; /* slate-100 */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+	background: rgba(232, 121, 249, 0.3); /* fuchsia-400 */
+}
+
